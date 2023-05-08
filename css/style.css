@@ -11,8 +11,11 @@
 /* INIZIO FOOTER */
 /* FINE FOOTER */
 /* INIZIO LAYOUT */
-.justify-responsive {
-    justify-content: space-between;
+.padding-x-12 {
+    padding: 0 12px;
+}
+.padding-0 {
+    padding: 0;
 }
 /* FINE LAYOUT */
 /* INIZIO GENERAL */
@@ -24,6 +27,9 @@
 }
 .h-100 {
     height: 100%;
+}
+.w-100 {
+    width: 100%;
 }
 /* FINE GENERAL */
 /* DA CANCELLARE */
@@ -40,6 +46,11 @@ header .col-6 {
 .jumbotron .col-12 {
     height: 300px;
     background-color: rebeccapurple;
+}
+.portfolio .container-fluid .col {
+    height: 150px;
+    background-color: green;
+    border: 2px solid black;
 }
 /* DA CANCELLARE */
 /* INIZIO MEDIA */
