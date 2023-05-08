@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* INIZIO HEADER */
+
+/* FINE HEADER */
+/* INIZIO MAIN */
+/* FINE MAIN */
+/* INIZIO FOOTER */
+/* FINE FOOTER */
+/* INIZIO LAYOUT */
+.justify-responsive {
+    justify-content: space-between;
+}
+/* FINE LAYOUT */
+/* INIZIO GENERAL */
+.background-blue {
+    background-color: rgb(44, 62, 80);
+}
+/* FINE GENERAL */
+/* DA CANCELLARE */
+header {
+    height: 100px;
+}
+header .col-6, header .col-md-4 {
+    background-color: aqua;
+    height: 80px;
+}
+/* DA CANCELLARE */
+/* INIZIO MEDIA */
+@media screen and (min-width: 1200px) {
+    .justify-responsive {
+        justify-content: space-around;
+    }
+}
+/* FINE MEDIA */
