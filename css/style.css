@@ -28,21 +28,26 @@
 }
 /* FINE LAYOUT */
 /* INIZIO GENERAL */
-.background-blue {
+.background-dark-blue {
     background-color: rgb(44, 62, 80);
 }
 .background-light-blue {
     background-color: rgb(26, 188, 156);
 }
+.background-blue {
+    background-color: rgb(58, 84, 109);
+}
 /* FINE GENERAL */
 /* DA CANCELLARE */
+.col, .col-12, .col-10, .col-6 {
+    border: 2px solid black;
+}
 header {
     height: 100px;
 }
 header .col-6 {
     background-color: aqua;
     height: 80px;
-    border: 2px solid black;
 }
 .jumbotron .col-12 {
     height: 300px;
@@ -51,16 +56,18 @@ header .col-6 {
 .portfolio .container-fluid .col {
     height: 150px;
     background-color: green;
-    border: 2px solid black;
 }
 .about .container-fluid .col {
     height: 200px;
     background-color: orangered;
-    border: 2px solid black;
 }
 .contact-me .container-fluid .col-12 {
     height: 300px;
     background-color: pink;
+}
+.top-footer .col {
+    height: 100px;
+    background-color: brown;
 }
 /* DA CANCELLARE */
 /* INIZIO MEDIA */
