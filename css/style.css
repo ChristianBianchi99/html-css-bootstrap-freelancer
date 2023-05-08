@@ -11,9 +11,6 @@
 /* INIZIO FOOTER */
 /* FINE FOOTER */
 /* INIZIO LAYOUT */
-.padding-x-12 {
-    padding: 0 12px;
-}
 .padding-0 {
     padding: 0;
 }
@@ -65,15 +62,10 @@ header .col-6 {
     height: 300px;
     background-color: pink;
 }
-.top-footer .col {
+footer .col, footer .col-12 {
     height: 100px;
     background-color: brown;
 }
 /* DA CANCELLARE */
 /* INIZIO MEDIA */
-@media screen and (min-width: 1200px) {
-    .justify-responsive {
-        justify-content: space-around;
-    }
-}
 /* FINE MEDIA */
