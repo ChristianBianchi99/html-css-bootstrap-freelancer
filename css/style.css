@@ -58,6 +58,10 @@ header .col-6 {
     background-color: orangered;
     border: 2px solid black;
 }
+.contact-me .container-fluid .col-12 {
+    height: 300px;
+    background-color: pink;
+}
 /* DA CANCELLARE */
 /* INIZIO MEDIA */
 @media screen and (min-width: 1200px) {
