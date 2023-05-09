@@ -28,9 +28,6 @@ header i {
 .jumbotron h1 {
     margin-top: 10px;
 }
-.jumbotron .qualifications {
-    font-size: 18px;
-}
 /* Portfolio */
 .portfolio img {
     width: 100%;
@@ -39,7 +36,6 @@ header i {
 /* About */
 .about p {
     text-align: left;
-    font-size: 20px;
 }
 .about button {
     background-color: transparent;
@@ -62,7 +58,6 @@ header i {
 .contact-me input::placeholder, .contact-me textarea::placeholder {
     color: rgb(44, 62, 80);
     opacity: 1;
-    font-size: 20px;
 }
 .contact-me button {
     padding: 6px 15px;
@@ -75,6 +70,34 @@ header i {
 }
 /* FINE MAIN */
 /* INIZIO FOOTER */
+/* Top Footer */
+.top-footer .content {
+    margin-top: 50px;
+}
+.top-footer .icone i {
+    margin: 0 5px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.top-footer .icone i:first-child {
+    padding: 15px 18.75px;
+}
+.top-footer .icone i:nth-child(2) {
+    padding: 15px 12.5px;
+}
+.top-footer .icone i:nth-child(3) {
+    padding: 15px 15px;
+}
+.top-footer .icone i:nth-child(4) {
+    padding: 15px 16.25px;
+}
+.top-footer .info span {
+    color: rgb(26, 188, 156);
+}
+/* Bottom Footer */
+.bottom-footer .copyright {
+    font-size: 15px;
+}
 /* FINE FOOTER */
 /* INIZIO LAYOUT */
 .padding-0 {
@@ -91,7 +114,7 @@ header i {
 }
 /* FINE LAYOUT */
 /* INIZIO GENERAL */
-header, .jumbotron, .about {
+header, .jumbotron, .about, footer {
     color: white;
 }
 .portfolio, .contact-me {
@@ -99,6 +122,9 @@ header, .jumbotron, .about {
 }
 header, .jumbotron, .title {
     text-transform: uppercase;
+}
+.jumbotron, .about, .contact-me, footer {
+    font-size: 20px;
 }
 .background-dark-blue {
     background-color: rgb(44, 62, 80);
@@ -136,11 +162,19 @@ h2 {
     font-size: 25px;
 }
 /* FINE GENERAL */
-/* DA CANCELLARE */
-footer .col, footer .col-12 {
-    height: 100px;
-    background-color: brown;
-}
-/* DA CANCELLARE */
 /* INIZIO MEDIA */
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    .jumbotron .qualifications {
+        font-size: 25px;
+    }
+    .top-footer .content {
+        margin: 0;
+    }
+}
 /* FINE MEDIA */
