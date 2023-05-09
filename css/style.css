@@ -49,6 +49,30 @@ header i {
     color: inherit;
     margin-top: 20px;
 }
+/* Contact me */
+.contact-me input, .contact-me textarea {
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: inherit;
+    background-color: transparent;
+    padding: 10px 0;
+}
+.contact-me input::placeholder, .contact-me textarea::placeholder {
+    color: rgb(44, 62, 80);
+    opacity: 1;
+    font-size: 20px;
+}
+.contact-me button {
+    padding: 6px 15px;
+    background-color: rgb(26, 188, 156);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    margin-top: 10px;
+}
 /* FINE MAIN */
 /* INIZIO FOOTER */
 /* FINE FOOTER */
@@ -69,6 +93,9 @@ header i {
 /* INIZIO GENERAL */
 header, .jumbotron, .about {
     color: white;
+}
+.portfolio, .contact-me {
+    color: rgb(44, 62, 80);
 }
 header, .jumbotron, .title {
     text-transform: uppercase;
@@ -110,13 +137,6 @@ h2 {
 }
 /* FINE GENERAL */
 /* DA CANCELLARE */
-.col, .col-12, .col-10, .col-6 {
-    border: 2px solid black;
-}
-.contact-me .container-fluid .col-12 {
-    height: 300px;
-    background-color: pink;
-}
 footer .col, footer .col-12 {
     height: 100px;
     background-color: brown;
