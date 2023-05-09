@@ -26,27 +26,15 @@ header i {
     width: 50%;
 }
 .jumbotron h1 {
-    margin: 10px 0;
-}
-.jumbotron .line {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.jumbotron .line hr {
-    display: inline-block;
-    width: 20%;
-    border: 2px solid white;
-    border-radius: 5px;
-    opacity: 1;
-}
-.jumbotron .line i {
-    margin: 0 2vw;
-    font-size: 25px;
+    margin-top: 10px;
 }
 .jumbotron .qualifications {
     font-size: 18px;
-    margin-top: 10px;
+}
+/* Portfolio */
+.portfolio img {
+    width: 100%;
+    border-radius: 10px;
 }
 /* FINE MAIN */
 /* INIZIO FOOTER */
@@ -69,7 +57,7 @@ header i {
 header, .jumbotron {
     color: white;
 }
-header, .jumbotron {
+header, .jumbotron, .title {
     text-transform: uppercase;
 }
 .background-dark-blue {
@@ -87,14 +75,30 @@ header, .jumbotron {
 h1 {
     font-size: 35px;
 }
+h2 {
+    font-size: 25px;
+}
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+.line hr {
+    display: inline-block;
+    width: 15%;
+    border: 2px solid;
+    border-radius: 5px;
+    opacity: 1;
+}
+.line i {
+    margin: 0 2vw;
+    font-size: 25px;
+}
 /* FINE GENERAL */
 /* DA CANCELLARE */
 .col, .col-12, .col-10, .col-6 {
     border: 2px solid black;
-}
-.portfolio .container-fluid .col {
-    height: 150px;
-    background-color: green;
 }
 .about .container-fluid .col {
     height: 200px;
