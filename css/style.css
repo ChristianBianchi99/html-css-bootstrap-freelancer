@@ -4,7 +4,22 @@
     box-sizing: border-box;
 }
 /* INIZIO HEADER */
-
+header {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.custom-button {
+    border-color: white;
+}
+.custom-button:focus {
+    box-shadow: none;
+}
+header i {
+    font-size: 25px;
+    padding-top: 3px;
+    color: rgba(255, 255, 255, 0.5);
+}
 /* FINE HEADER */
 /* INIZIO MAIN */
 /* FINE MAIN */
@@ -34,13 +49,13 @@
 .background-blue {
     background-color: rgb(58, 84, 109);
 }
+.color-inherit {
+    color: inherit;
+}
 /* FINE GENERAL */
 /* DA CANCELLARE */
 .col, .col-12, .col-10, .col-6 {
     border: 2px solid black;
-}
-header {
-    height: 100px;
 }
 header .col-6 {
     background-color: aqua;
