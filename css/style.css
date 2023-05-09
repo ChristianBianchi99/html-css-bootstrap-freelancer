@@ -36,6 +36,19 @@ header i {
     width: 100%;
     border-radius: 10px;
 }
+/* About */
+.about p {
+    text-align: left;
+    font-size: 20px;
+}
+.about button {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 6px 15px;
+    color: inherit;
+    margin-top: 20px;
+}
 /* FINE MAIN */
 /* INIZIO FOOTER */
 /* FINE FOOTER */
@@ -54,7 +67,7 @@ header i {
 }
 /* FINE LAYOUT */
 /* INIZIO GENERAL */
-header, .jumbotron {
+header, .jumbotron, .about {
     color: white;
 }
 header, .jumbotron, .title {
@@ -99,10 +112,6 @@ h2 {
 /* DA CANCELLARE */
 .col, .col-12, .col-10, .col-6 {
     border: 2px solid black;
-}
-.about .container-fluid .col {
-    height: 200px;
-    background-color: orangered;
 }
 .contact-me .container-fluid .col-12 {
     height: 300px;
